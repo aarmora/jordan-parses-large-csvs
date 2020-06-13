@@ -1,0 +1,32 @@
+{
+	"name": "jordan-parses-large-csvs",
+	"version": "1.0.0",
+	"description": "Using javascript, this repo shows an example of how to handle extremely large CSV files.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-parses-large-csvs.git"
+	},
+	"keywords": [
+		"javascript",
+		"typescript",
+		"csv"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-parses-large-csvs/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-parses-large-csvs#readme",
+	"dependencies": {
+		"csv-parser": "^2.3.3",
+		"csv-split-stream": "^1.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.13",
+		"typescript": "^3.9.5"
+	}
+}
